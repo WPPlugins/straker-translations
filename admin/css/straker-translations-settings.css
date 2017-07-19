@@ -1,0 +1,278 @@
+
+/* Start of the settings PostBox CSS */
+#st-box-container {
+  padding-top: 40px;
+  min-width: 763px;
+}
+
+#st-settings-nav-links {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#st-settings-nav-links ul {
+  list-style: none;
+}
+#st-settings-nav-links ul > li {
+  float: left;
+  margin-right: 15px;
+}
+.st-multi-div-accord .st-box-inside {
+    padding: 0 !important;
+    margin: 0 !important;
+
+}
+.st-multi-div-accord .st-box-inside:before{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 0;
+    background: #F9F9F9;
+    border-color: #E1E1E1;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 28%;
+}
+.st-multi-div-accord .st-box-inside:after {
+    content: "";
+    display: block;
+    line-height: 0;
+    clear: both;
+}
+.st-multi-div-accord .st-accord-label {
+    width: 28%;
+    float: left;
+    padding: 15px 12px !important;
+
+}
+.st-box-inside p.description {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.4em;
+    color: #777777;
+    display: block;
+}
+.st-multi-div-accord .st-box-inside .st-box-inside-label {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 3px;
+    padding: 0;
+    
+}
+.st-multi-div-accord .st-accord-detail {
+    width: 72%;
+    padding: 17px 12px !important;
+    float: left;
+    border-color: #E1E1E1;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+}
+
+.st-multi-div-accord .st-box-inside > .st-accord-label, .st-multi-div-accord .st-box-inside > .st-accord-detail {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.st-main-settings-postbox {
+    min-width: 255px;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 0;
+    line-height: 1;
+}
+
+.st-main-settings-postbox .inside {
+    margin: 11px 0;
+    position: relative;
+    padding: 0 12px 12px;
+    line-height: 1.4em;
+    font-size: 13px;
+}
+
+.st-main-settings-postbox .st-postbox-heading {
+  
+  width: 27% !important;
+  text-align:left;
+  float:left;
+  position: relative;
+  left: 12px;
+  line-height: 65px;
+  border-right: 1px solid #eee;
+  font-size: 18px !important;
+  font-weight: bold !important;
+
+}
+
+.st-main-settings-postbox .st-postbox-heading-desc {
+  width: 71% !important;
+  position: relative;
+  top: 25px;
+  float:right;
+  font-weight: bold !important;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.4em;
+  color: #777777;
+}
+
+.st-postbox-heading, .st-postbox-heading-desc {
+  
+  
+  margin: 0 !important;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+}
+/* End of the settings PostBox CSS */
+
+/* Start of the CSS for the On/Off Buttn*/
+.st-checkbox-skewed {
+  position: relative;
+  outline: 0;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+  margin: 0 0 5px 0;
+}
+.st-checkbox-skewed,
+.st-checkbox-skewed:after,
+.st-checkbox-skewed:before,
+.st-checkbox-skewed *,
+.st-checkbox-skewed *:after,
+.st-checkbox-skewed *:before,
+.st-checkbox-skewed {
+  box-sizing: border-box;
+}
+.st-checkbox-skewed::selection,
+.st-checkbox-skewed:after::selection,
+.st-checkbox-skewed:before::selection,
+.st-checkbox-skewed *::selection,
+.st-checkbox-skewed *:after::selection,
+.st-checkbox-skewed *:before::selection,
+.st-checkbox-skewed {
+  background: none;
+}
+.st-checkbox-skewed span {
+  position: relative;
+  display: block;
+  height: 1.8em;
+  line-height: 1.2em;
+  overflow: hidden;
+  font-weight: normal;
+  text-align: center;
+  border-radius: 2em;
+  padding: 0.2em 1em;
+  border: 1px solid #fafafa;
+  box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.2), 0 2px 0 rgba(255, 255, 255, 0.7);
+  transition: color 0.3s ease, padding 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+.st-checkbox-skewed span:before {
+  position: relative;
+  display: block;
+  line-height: 1.3em;
+  padding: 0 0.2em;
+  font-size: 1em;
+}
+.st-checkbox-skewed span:after {
+  position: absolute;
+  display: block;
+  content: '';
+  border-radius: 2em;
+  width: 1.3em;
+  height: 1.3em;
+  margin-left: -1.45em;
+  top: 0.2em;
+  background: #FFFFFF;
+  transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 0.97), background 0.3s ease-in-out;
+}
+.st-checkbox-skewed input[type="checkbox"] {
+  display: none !important;
+}
+.st-checkbox-skewed input[type="checkbox"]:not(:checked) + span {
+  background: #888;
+  color: #FFFFFF;
+  padding-left: 1.6em;
+  padding-right: 0.4em;
+}
+.st-checkbox-skewed input[type="checkbox"]:not(:checked) + span:before {
+  content: attr(data-off);
+  color: #FFFFFF;
+}
+.st-checkbox-skewed input[type="checkbox"]:not(:checked) + span:after {
+  background: #FFFFFF;
+  left: 1.6em;
+}
+.st-checkbox-skewed input[type="checkbox"]:checked + span {
+  background: #0173AA;
+  color: #FFFFFF;
+  padding-left: 0.4em;
+  padding-right: 1.6em;
+}
+.st-checkbox-skewed input[type="checkbox"]:checked + span:before {
+  content: attr(data-on);
+}
+.st-checkbox-skewed input[type="checkbox"]:checked + span:after {
+  background: #FFFFFF;
+  left: 100%;
+}
+
+/* End of the CSS for the On/Off Buttn*/
+
+
+/* Start of the CSS for fancy checkbox and radio buttons*/
+
+/* End of the CSS for fancy checkbox and radio buttons*/
+
+
+.st-lang-switch-save-btn {
+  float: right;
+}
+.st-lang-switch-save-btn > p {
+
+  margin: 20px 0px !important;
+}
+
+.st-delete-jobs-btn {
+  float: right;
+}
+
+.before-saving-msg, .after-saved-msg {
+  font-weight: bold;
+  position: relative;
+  display: none;
+  right: 10px;
+ 
+}
+
+.before-saving-msg {
+  background-color: yellow;
+  top: 3px;
+}
+.after-saved-msg {
+   background-color: #CCFF66;
+   top: 7px;
+   color: #009900;
+}
+
+#js-st-ms-message img {
+  position: relative;
+  top: 3px;
+  right: 5px;
+ }
+
+ .st-box-heading-active {
+   color: #0173AA;
+ }

@@ -1,0 +1,11 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+#langlist li {
+  display: inline;
+  float: left;
+  list-style-type: none;
+  padding: 3px;
+}

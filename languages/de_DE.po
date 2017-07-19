@@ -1,0 +1,3 @@
+#: admin/partials/straker-translations-admin-settings.php:144
+msgid "Source Language"
+msgstr "Ausgangssprache"

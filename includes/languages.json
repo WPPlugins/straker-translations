@@ -1,0 +1,578 @@
+{
+"languages": [
+{
+"native_name": "Afrikaans",
+"code": "Afrikaans",
+"name": "Afrikaans",
+"wp_locale": "af",
+"short_code": "af"
+},
+{
+"native_name": "Shqip",
+"code": "Albanian",
+"name": "Albanian",
+"wp_locale": "sq",
+"short_code": "sq"
+},
+{
+"native_name": "ኣማርኛ",
+"code": "Amharic",
+"name": "Amharic",
+"wp_locale": "sq",
+"short_code": "am"
+},
+{
+"native_name": "العربية",
+"code": "Arabic",
+"name": "Arabic",
+"wp_locale": "ar",
+"short_code": "sa"
+},
+{
+"native_name": "Հայերեն",
+"code": "Armenian",
+"name": "Armenian",
+"wp_locale": "hy",
+"short_code": "hy"
+},
+{
+"native_name": "Euskara",
+"code": "Basque",
+"name": "Basque",
+"wp_locale": "eu",
+"short_code": "eu"
+},
+{
+"native_name": "বাংলা",
+"code": "Bengali",
+"name": "Bengali",
+"wp_locale": "bn_BD",
+"short_code": "bn"
+},
+{
+"native_name": "Bosanski",
+"code": "Bosnian",
+"name": "Bosnian",
+"wp_locale": "bs_BA",
+"short_code": "bs"
+},
+{
+"native_name": "Български",
+"code": "Bulgarian",
+"name": "Bulgarian",
+"wp_locale": "bg_BG",
+"short_code": "bg"
+},
+{
+"native_name": "Català",
+"code": "Catalan",
+"name": "Catalan",
+"wp_locale": "ca",
+"short_code": "ca"
+},
+{
+"native_name": "简体中文",
+"code": "Chinese_Simplified",
+"name": "Chinese Simplified",
+"wp_locale": "zh_CN",
+"short_code": "zh-cn"
+},
+{
+"native_name": "繁體中文",
+"code": "Chinese_Traditional",
+"name": "Chinese Traditional",
+"wp_locale": "zh_TW",
+"short_code": "zh-tw"
+},
+{
+"native_name": "Hrvatski",
+"code": "Croatian",
+"name": "Croatian",
+"wp_locale": "hr",
+"short_code": "hr"
+},
+{
+"native_name": "‪Čeština‬",
+"code": "Czech",
+"name": "Czech",
+"wp_locale": "cs_CZ",
+"short_code": "cs"
+},
+{
+"native_name": "Dansk",
+"code": "Danish",
+"name": "Danish",
+"wp_locale": "da_DK",
+"short_code": "da"
+},
+{
+"native_name": "Nederlands",
+"code": "Dutch",
+"name": "Dutch",
+"wp_locale": "nl_NL",
+"short_code": "nl-nl"
+},
+{
+"native_name": "English",
+"code": "English",
+"name": "English",
+"wp_locale": "en_GB",
+"short_code": "en-gb"
+},
+{
+"native_name": "English (USA)",
+"code": "English_US",
+"name": "English (USA)",
+"wp_locale": "en_US",
+"short_code": "en-us"
+},
+{
+"native_name": "Esperanto",
+"code": "Esperanto",
+"name": "Esperanto",
+"wp_locale": "eo",
+"short_code": "eo"
+},
+{
+"native_name": "Eesti keel",
+"code": "Estonian",
+"name": "Estonian",
+"wp_locale": "et",
+"short_code": "et"
+},
+{
+"native_name": "Føroyskt",
+"code": "Faroese",
+"name": "Faroese",
+"wp_locale": "fo",
+"short_code": "fo"
+},
+{
+"native_name": "Suomi",
+"code": "Finnish",
+"name": "Finnish",
+"wp_locale": "fi",
+"short_code": "fi"
+},
+{
+"native_name": "Français Québécois",
+"code": "Quebecois",
+"name": "French (Canada)",
+"wp_locale": "fr_CA",
+"short_code": "fr-ca"
+},
+{
+"native_name": "Français",
+"code": "French",
+"name": "French (France)",
+"wp_locale": "fr_FR",
+"short_code": "fr-fr"
+},
+{
+"native_name": "ქართული",
+"code": "Georgian",
+"name": "Georgian",
+"wp_locale": "ka_GE",
+"short_code": "ka"
+},
+{
+"native_name": "Deutsch",
+"code": "German",
+"name": "German",
+"wp_locale": "de_DE",
+"short_code": "de-de"
+},
+{
+"native_name": "Deutschsprachige Schweiz",
+"code": "Swiss_German",
+"name": "German (Switzerland)",
+"wp_locale": "de_CH",
+"short_code": "de-ch"
+},
+{
+"native_name": "ελληνικά",
+"code": "Greek",
+"name": "Greek",
+"wp_locale": "el",
+"short_code": "el"
+},
+{
+"native_name": "ગુજરાતી",
+"code": "Guajarati",
+"name": "Gujarati",
+"wp_locale": "gu",
+"short_code": "gu"
+},
+{
+"native_name": "Hawai`i",
+"code": "Hawaiian",
+"name": "Hawaiian",
+"wp_locale": "haw_US",
+"short_code": "haw"
+},
+{
+"native_name": "עברית",
+"code": "Hebrew",
+"name": "Hebrew",
+"wp_locale": "he_IL",
+"short_code": "he"
+},
+{
+"native_name": "हिन्दी",
+"code": "Hindi",
+"name": "Hindi",
+"wp_locale": "hi_IN",
+"short_code": "hi"
+},
+{
+"native_name": "Magyar",
+"code": "Hungarian",
+"name": "Hungarian",
+"wp_locale": "hu_HU",
+"short_code": "hu"
+},
+{
+"native_name": "Íslenska",
+"code": "Icelandic",
+"name": "Icelandic",
+"wp_locale": "is_IS",
+"short_code": "is"
+},
+{
+"native_name": "Bahasa Indonesia",
+"code": "Indonesian",
+"name": "Indonesian",
+"wp_locale": "id_ID",
+"short_code": "id"
+},
+{
+"native_name": "Gaeilge",
+"code": "Irish_Gaelic",
+"name": "Irish Gaelic",
+"wp_locale": "ga",
+"short_code": "gd-ie"
+},
+{
+"native_name": "Italiano",
+"code": "Italian",
+"name": "Italian",
+"wp_locale": "it_IT",
+"short_code": "it-it"
+},
+{
+"native_name": "日本語",
+"code": "Japanese",
+"name": "Japanese",
+"wp_locale": "ja",
+"short_code": "ja"
+},
+{
+"native_name": "Basa Jawa",
+"code": "Javanese",
+"name": "Javanese",
+"wp_locale": "jv_ID",
+"short_code": "jv"
+},
+{
+"native_name": "Қазақ тілі",
+"code": "Kazakh",
+"name": "Kazakh",
+"wp_locale": "kk",
+"short_code": "kk"
+},
+{
+"native_name": "ភាសាខ្មែរ",
+"code": "Khmer",
+"name": "Khmer",
+"wp_locale": "km",
+"short_code": "km"
+},
+{
+"native_name": "한국어",
+"code": "Korean",
+"name": "Korean",
+"wp_locale": "ko_KR",
+"short_code": "ko"
+},
+{
+"native_name": "سۆرانی",
+"code": "Kurdish_Sorani",
+"name": "Kurdish Sorani (Arabic)",
+"wp_locale": "ckb",
+"short_code": "ckb"
+},
+{
+"native_name": "ພາສາລາວ",
+"code": "Laos",
+"name": "Lao",
+"wp_locale": "lo",
+"short_code": "lo"
+},
+{
+"native_name": "Latviešu Valoda",
+"code": "Latvian",
+"name": "Latvian",
+"wp_locale": "lv",
+"short_code": "lv"
+},
+{
+"native_name": "Lietuvių Kalba",
+"code": "Lithuanian",
+"name": "Lithuanian",
+"wp_locale": "lt_LT",
+"short_code": "lt"
+},
+{
+"native_name": "Mакедонски",
+"code": "Macedonian",
+"name": "Macedonian",
+"wp_locale": "mk_MK",
+"short_code": "mk"
+},
+{
+"native_name": "Fiteny Malagasy",
+"code": "Malagasy",
+"name": "Malagasy",
+"wp_locale": "mg_MG",
+"short_code": "mg"
+},
+{
+"native_name": "Bahasa Melayu",
+"code": "Malay",
+"name": "Malay",
+"wp_locale": "ms_MY",
+"short_code": "ms-my"
+},
+{
+"native_name": "മലയാളം",
+"code": "Malayalam",
+"name": "Malayalam",
+"wp_locale": "ml_IN",
+"short_code": "ml"
+},
+{
+"native_name": "Te Reo Māori",
+"code": "Maori",
+"name": "Maori",
+"wp_locale": "mri",
+"short_code": "mi"
+},
+{
+"native_name": "मराठी",
+"code": "Marathi",
+"name": "Marathi",
+"wp_locale": "mr",
+"short_code": "mr"
+},
+{
+"native_name": "Mонгол",
+"code": "Mongolian",
+"name": "Mongolian",
+"wp_locale": "mn",
+"short_code": "mn"
+},
+{
+"native_name": "नेपाली",
+"code": "Nepali",
+"name": "Nepali",
+"wp_locale": "ne_NP",
+"short_code": "ne"
+},
+{
+"native_name": "Norsk",
+"code": "Norwegian",
+"name": "Norwegian",
+"wp_locale": "nn_NO",
+"short_code": "no"
+},
+{
+"native_name": "پښتو",
+"code": "Pashto",
+"name": "Pashto",
+"wp_locale": "ps",
+"short_code": "ps"
+},
+{
+"native_name": "فارسى",
+"code": "Persian",
+"name": "Persian",
+"wp_locale": "fa_IR",
+"short_code": "fa"
+},
+{
+"native_name": "Polski",
+"code": "Polish",
+"name": "Polish",
+"wp_locale": "pl_PL",
+"short_code": "pl"
+},
+{
+"native_name": "Português do Brasil",
+"code": "Portuguese_Brazil",
+"name": "Portuguese (Brazil)",
+"wp_locale": "pt_BR",
+"short_code": "pt-br"
+},
+{
+"native_name": "Português",
+"code": "Portuguese",
+"name": "Portuguese (Portugal)",
+"wp_locale": "pt_PT",
+"short_code": "pt-pt"
+},
+{
+"native_name": "ਪੰਜਾਬੀ",
+"code": "Punjabi",
+"name": "Punjabi",
+"wp_locale": "pa_IN",
+"short_code": "pa"
+},
+{
+"native_name": "Română",
+"code": "Romanian",
+"name": "Romanian",
+"wp_locale": "ro_RO",
+"short_code": "ro"
+},
+{
+"native_name": "Русский язык",
+"code": "Russian",
+"name": "Russian",
+"wp_locale": "ru_RU",
+"short_code": "ru"
+},
+{
+"native_name": "Cрпски",
+"code": "Serbian",
+"name": "Serbian",
+"wp_locale": "gd",
+"short_code": "sr-sp"
+},
+{
+"native_name": "සිංහල",
+"code": "Sinhala",
+"name": "Sinhala",
+"wp_locale": "si_LK",
+"short_code": "si"
+},
+{
+"native_name": "Slovenčina",
+"code": "Slovak",
+"name": "Slovak",
+"wp_locale": "sk_SK",
+"short_code": "sk"
+},
+{
+"native_name": "Slovenščina",
+"code": "Slovenian",
+"name": "Slovenian",
+"wp_locale": "sl_SI",
+"short_code": "sl"
+},
+{
+"native_name": "Af Soomaali",
+"code": "Somali",
+"name": "Somali",
+"wp_locale": "so_SO",
+"short_code": "so"
+},
+{
+"native_name": "Español América Latina",
+"code": "Spanish_Latin_America",
+"name": "Spanish (Latin America)",
+"wp_locale": "es_AR",
+"short_code": "es-la"
+},
+{
+"native_name": "Español",
+"code": "Spanish",
+"name": "Spanish (Spain)",
+"wp_locale": "es_ES",
+"short_code": "es-es"
+},
+{
+"native_name": "Español en Estados Unidos",
+"code": "Spanish_US",
+"name": "Spanish (US)",
+"wp_locale": "es_MX",
+"short_code": "es-mx"
+},
+{
+"native_name": "Basa Sunda",
+"code": "Sundanese",
+"name": "Sundanese",
+"wp_locale": "su_ID",
+"short_code": "su"
+},
+{
+"native_name": "Kiswahili",
+"code": "Swahili",
+"name": "Swahili",
+"wp_locale": "sw",
+"short_code": "sw"
+},
+{
+"native_name": "Svenska",
+"code": "Swedish",
+"name": "Swedish",
+"wp_locale": "sv_SE",
+"short_code": "sv-se"
+},
+{
+"native_name": "Тоҷикӣ",
+"code": "Tajik",
+"name": "Tajik",
+"wp_locale": "tg",
+"short_code": "tg"
+},
+{
+"native_name": "தமிழ்",
+"code": "Tamil",
+"name": "Tamil",
+"wp_locale": "ta_IN",
+"short_code": "ta"
+},
+{
+"native_name": "ภาษาไทย",
+"code": "Thai",
+"name": "Thai",
+"wp_locale": "th",
+"short_code": "th"
+},
+{
+"native_name": "Türkçe",
+"code": "Turkish",
+"name": "Turkish",
+"wp_locale": "tr_TR",
+"short_code": "tr"
+},
+{
+"native_name": "Українська",
+"code": "Ukrainian",
+"name": "Ukrainian",
+"wp_locale": "uk",
+"short_code": "uk"
+},
+{
+"native_name": "O‘zbek",
+"code": "Uzbek",
+"name": "Uzbek",
+"wp_locale": "uz_UZ",
+"short_code": "uz-uz"
+},
+{
+"native_name": "Tiếng Việt",
+"code": "Vietnamese",
+"name": "Vietnamese",
+"wp_locale": "vi",
+"short_code": "vi"
+},
+{
+"native_name": "Cymraeg",
+"code": "Welsh",
+"name": "Welsh",
+"wp_locale": "cy",
+"short_code": "cy"
+}
+]
+}
